@@ -1,10 +1,13 @@
 # :speech_balloon: tcp_data_len_change
 
 Comment: TCP Data 영역을 수정하라(길이 포함).
+Argument Format : tcp_data_len_change <from string> <to string>
 
 ## :green_book: 데이터 영역을 수정 하기 위한 방법
-- 데이터(payload)가 존재 하는지 확인한다.
-- 이번 과제를 하기 위해서는 현재 SEQ, ACK를 동적 할당하여 유지 할 필요는 없다.
+  - 데이터(payload)가 존재 하는지 확인한다.
+  - 데이터 영역내에 수정 할 대상의 문자열이 있는지 확인한다.
+  - 이번 과제를 하기 위해서는 현재 SEQ, ACK를 동적 할당하여 유지 할 필요는 없다.
+  
 왜냐 하면 INPATH에서 이루어지는 데이터들은 SEQ, ACK은 이미 계산 된 상태로 오기 때문이다.
 하지만 패킷을 만들어 보낸다면 SEQ, ACK를 보관 하고 있다가 검색하여 SEQ, ACK를 셋팅 한 뒤 보내준다.
 
