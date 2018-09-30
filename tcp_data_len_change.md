@@ -7,11 +7,8 @@ Table command : iptables -A OUTPUT -j NFQUEUE, iptables -A INPUT -j NFQUEUE
 ## :green_book: 데이터 영역을 수정 하기 위한 방법
   - 데이터(payload)가 존재 하는지 확인한다.
   - 데이터 영역내에 수정 할 대상의 문자열이 있는지 확인한다.
-  - 이번 과제를 하기 위해서는 현재 SEQ, ACK를 동적 할당하여 유지 할 필요는 없다.
   
-왜냐 하면 `In path`에서 이루어지는 데이터들은 SEQ, ACK은 이미 계산 된 상태로 오기 때문이다.<br>
-이 과정중에서 IP 헤더의 `TotalLength`를 수정된 데이터 만큼 가감을 연산하여 정상 패킷으로 만들어 준다하면 가능하지 않을까?<br>
-하지만 `패킷을 만들어 보내거나` 혹은 `Out of path` 환경이라면 SEQ, ACK를 보관 하고 있다가 검색하여 SEQ, ACK를 설정 한 뒤 보내준다.
+  IP 헤더의 `TotalLength`를 수정된 데이터 만큼 가감을 연산하여 정상 패킷으로 만들어 준다하면 가능하지 않을까?<br>
 
 ## :green_book: 사용되는 요소
 
