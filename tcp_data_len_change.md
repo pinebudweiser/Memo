@@ -1,7 +1,8 @@
 # :speech_balloon: tcp_data_len_change
 
 Comment: TCP Data 영역을 수정하라(길이 포함).<br>
-Argument Format : tcp_data_len_change <from string> <to string>
+Argument Format : tcp_data_len_change <from string> <to string> <br>
+Table command : iptables -A OUTPUT -j NFQUEUE, iptables -A INPUT -j NFQUEUE
 
 ## :green_book: 데이터 영역을 수정 하기 위한 방법
   - 데이터(payload)가 존재 하는지 확인한다.
@@ -14,7 +15,7 @@ Argument Format : tcp_data_len_change <from string> <to string>
 ## :green_book: 사용되는 요소
 
 - STL Map<key,value> : 키를 하나의 플로우 클래스로 지정, value는 SEQ, ACK 구조체로 저장한다.
-- INPUT, OUTPUT을 패킷 헤더를 조사해 각각의 Map 트리를 가지게 한다.
+- INPUT, OUTPUT 체인 중 패킷 헤더를 조사해 각각의 Map 트리를 가지게 한다.
 
 ## :green_book: 부족한 개념
 
