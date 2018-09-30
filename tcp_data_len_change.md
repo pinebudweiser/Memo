@@ -8,7 +8,8 @@ Table command : iptables -A OUTPUT -j NFQUEUE, iptables -A INPUT -j NFQUEUE
   - 데이터(payload)가 존재 하는지 확인한다.
   - 데이터 영역내에 수정 할 대상의 문자열이 있는지 확인한다.
   
-  IP 헤더의 `TotalLength`를 수정된 데이터 만큼 가감을 연산하여 정상 패킷으로 만들어 준다하면 가능하지 않을까?<br>
+질문내용 : IP 헤더의 `TotalLength`를 수정된 데이터 만큼 가감을 연산하여 정상 패킷으로 만들어 준다하면 가능하지 않을까?<br>
+질문내용 : 연산자 오버로딩에서의 왼쪽 피연산자를 동적 할당된 영역으로 받
 
 ## :green_book: 사용되는 요소
 
@@ -24,3 +25,4 @@ Table command : iptables -A OUTPUT -j NFQUEUE, iptables -A INPUT -j NFQUEUE
 ## 구현 요소
 
 - 가상헤더를 어떻게 깔끔 하게 넣어서 체크섬을 계산 할 까..?
+- Map에서의 Key와 Value를 어떻게 할 까?
