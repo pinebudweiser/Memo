@@ -3,14 +3,14 @@
 
 ## 용어
 
-Architecture
-Components
-Context
-FrameWork
-Monolithic
-Third party
-WHQL - Windows Hardware Quality Labs
-KMCS - Kernel-Mode Code Signing
+Architecture<br>
+Components<br>
+Context<br>
+FrameWork<br>
+Monolithic<br>
+Third party<br>
+WHQL - Windows Hardware Quality Labs<br>
+KMCS - Kernel-Mode Code Signing<br>
 
 - 커널모드 코드는 이식성을 위해 C로 작성 되어있다. 그러나 객체지향 언어의 고유 특징을 차용하고 있다.
 예를 들어, 타 객체의 구조체를 직접 수정하지 않고 특정 인터페이스를 통해 구조체에 접근하는 함수를 호출하여 수정한다.
