@@ -27,6 +27,7 @@ Table command : iptables -A OUTPUT -j NFQUEUE, iptables -A INPUT -j NFQUEUE
 
 ## 질문
 
-- IP 헤더의 `TotalLength`를 수정된 데이터 만큼 연산하여 설정 후 보내면 가능한가..
+- IP 헤더의 `TotalLength`를 수정된 데이터 만큼 연산하여 설정 후 보내면 가능한가..?
 - 연산자 오버로딩에서의 왼쪽 피연산자를 동적 할당된 영역으로 받는 경우.
 - 와이어 샤크와 NetFilter로 인한 패킷이 잡히는 시점
+- IP Header의 TotalLength와 packet_header의 pkt_len의 차이.. <까먹음 ㅈㅅ>
