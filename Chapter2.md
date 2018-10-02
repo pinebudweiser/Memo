@@ -11,6 +11,9 @@ Monolithic<br>
 Third party<br>
 WHQL - Windows Hardware Quality Labs<br>
 KMCS - Kernel-Mode Code Signing<br>
+SMP - Symmetric MultiProcessing (대칭형 멀티프로세싱)
+SMT - Simultaneous Multi-Threaded (병렬 멀티스레드)
+유휴 : [명사] 쓰지 아니하고 놀림.
 
 - 커널모드 코드는 이식성을 위해 C로 작성 되어있다. 그러나 객체지향 언어의 고유 특징을 차용하고 있다.
 예를 들어, 타 객체의 구조체를 직접 수정하지 않고 특정 인터페이스를 통해 구조체에 접근하는 함수를 호출하여 수정한다.
@@ -29,7 +32,6 @@ KMCS - Kernel-Mode Code Signing<br>
 윈도우 커널 : 스레드 스케줄링, 인터럽트 처리, 스레드 스케줄링을 위한 루틴과 객체를 제공하며 저수준 OS로 구성되있다 함.
 디바이스 드라이버 : 유저의 I/O을 하드웨어의 I/O으로 요청으로 바꿔주거나 네트워크 드라이버 같은 비 하드웨어 드라이버도 포함 한다 함.
 하드웨어 추상화 계층 : 하드웨어의 특성으로 인한 커널요소들의 차이점을 분리 시켜준다 캄
-
 NTOSKERNEL(System) : 실질적인 Nt계열 함수들이 구현되어 있는곳.
 Ntdll.dll : 시스템 콜로 NTOSKERNEL내의 함수를 호출함
 
