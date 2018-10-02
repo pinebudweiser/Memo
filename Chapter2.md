@@ -11,12 +11,12 @@ Monolithic<br>
 Third party<br>
 WHQL - Windows Hardware Quality Labs<br>
 KMCS - Kernel-Mode Code Signing<br>
-SMP - Symmetric MultiProcessing (대칭형 멀티프로세싱)
-SMT - Simultaneous Multi-Threaded (병렬 멀티스레드)
-Topology - 형태/
-heterogeneous - 여러 다른 종류들로 이뤄진
-유휴 : [명사] 쓰지 아니하고 놀림.
-取捨選擇 [취사선택] : 취할 것은 취(取)하고, 버릴 것은 버려서 골라잡음
+SMP - Symmetric MultiProcessing (대칭형 멀티프로세싱)<br>
+SMT - Simultaneous Multi-Threaded (병렬 멀티스레드)<br>
+Topology - 형태<br>
+heterogeneous - 여러 다른 종류들로 이뤄진<br>
+유휴 : [명사] 쓰지 아니하고 놀림.<br>
+取捨選擇 [취사선택] : 취할 것은 취(取)하고, 버릴 것은 버려서 골라잡음<br>
 
 - 커널모드 코드는 이식성을 위해 C로 작성 되어있다. 그러나 객체지향 언어의 고유 특징을 차용하고 있다.
 예를 들어, 타 객체의 구조체를 직접 수정하지 않고 특정 인터페이스를 통해 구조체에 접근하는 함수를 호출하여 수정한다.
