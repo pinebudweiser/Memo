@@ -32,3 +32,13 @@ KMCS - Kernel-Mode Code Signing<br>
 
 NTOSKERNEL(System) : 실질적인 Nt계열 함수들이 구현되어 있는곳.
 Ntdll.dll : 시스템 콜로 NTOSKERNEL내의 함수를 호출함
+
+
+## 대칭형 멀티프로세싱
+
+- `Multitasking`은 하나의 프로세서에서 여러 스레드를 동시에 스레드가 실행 되어 보이는 것처럼 하는 기술.
+- `MultiProcessing`은 2개 이상의 프로세서에서 여러 스레드를 실질 적으로 동시에 실행하는 기술.
+윈도우는 Symmetrice MultiProcessing
+
+물리 코어 : 실제로 가지고 있는 프로세서의 수
+논리 프로세서 : 가상으로 가지고 있는 프로세서의 수 (스레드)
