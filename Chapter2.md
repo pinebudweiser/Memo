@@ -13,6 +13,7 @@ WHQL - Windows Hardware Quality Labs<br>
 KMCS - Kernel-Mode Code Signing<br>
 SMP - Symmetric MultiProcessing (대칭형 멀티프로세싱)
 SMT - Simultaneous Multi-Threaded (병렬 멀티스레드)
+Topology - 형태/
 유휴 : [명사] 쓰지 아니하고 놀림.
 
 - 커널모드 코드는 이식성을 위해 C로 작성 되어있다. 그러나 객체지향 언어의 고유 특징을 차용하고 있다.
