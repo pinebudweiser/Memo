@@ -14,6 +14,7 @@ KMCS - Kernel-Mode Code Signing<br>
 SMP - Symmetric MultiProcessing (대칭형 멀티프로세싱)
 SMT - Simultaneous Multi-Threaded (병렬 멀티스레드)
 Topology - 형태/
+이기종 컴퓨팅 아키텍처는 각 연산 태스크에 가장 적합한 여러 다른 연산 노드에 걸쳐 데이터, 처리, 프로그램 실행을 분산하는 시스템입니다
 유휴 : [명사] 쓰지 아니하고 놀림.
 
 - 커널모드 코드는 이식성을 위해 C로 작성 되어있다. 그러나 객체지향 언어의 고유 특징을 차용하고 있다.
