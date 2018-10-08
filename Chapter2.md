@@ -20,6 +20,9 @@ subsystem - 하위 시스템<br>
 取捨選擇 [취사선택] : 취할 것은 취(取)하고, 버릴 것은 버려서 골라잡음<br>
 VTL - VirtualTrustLevel
 SLAT - SecondLevelAddressTranslation(https://blogs.technet.microsoft.com/koalra/2009/02/12/second-level-address-translation-slat-hyper-v-r2/ : 설명 진짜 잘 되있다.)
+Side by side : https://docs.microsoft.com/ko-kr/dotnet/framework/app-domains/assemblies-and-side-by-side-execution
+https://docs.microsoft.com/ko-kr/dotnet/framework/deployment/side-by-side-execution
+manifest : http://bsnippet.tistory.com/7
 
 - 커널모드 코드는 이식성을 위해 C로 작성 되어있다. 그러나 객체지향 언어의 고유 특징을 차용하고 있다.
 예를 들어, 타 객체의 구조체를 직접 수정하지 않고 특정 인터페이스를 통해 구조체에 접근하는 함수를 호출하여 수정한다.
@@ -72,11 +75,11 @@ Ntdll.dll : 시스템 콜로 NTOSKERNEL내의 함수를 호출함
 
 윈도우에서는 GUI, CUI가 있지만 단 하나의 서브시스템으로 통합된다.<br>
 GUI 또한 AllocConsole로 콘솔을 가질 수 있으며, Console또한 다이얼로그나 WndProc 생성으로 윈도우 창을 가질 수 있다.<br>
-어플리케이션이 DLL내의 함수를 호출 할 때 3가지의 경우가 발생 할 수 있다.<br>
 
+어플리케이션이 DLL내의 함수를 호출 할 때 3가지의 경우가 발생 할 수 있다.<br>
 1. 시스템 호출이 필요 없는 경우(GetCurrentProcess, GetCurrentProcessId)
 2. 시스템 호출이 필요한 경우 -> NTDLL에서 시스템 호출
-3. 환경 서브시스템 프로세스에서 수행돼야 하는 어떤일을 요구하는 경우, ALPC
+3. 환경 서브시스템 프로세스에서 수행돼야 하는 어떤일을 요구하는 경우, DLL을 통하여 ALPC로 환경 서브시스템과 통신 - 응당이 올 때 까지 기다림 
 
 ## 익스큐티브 (140p)
 
