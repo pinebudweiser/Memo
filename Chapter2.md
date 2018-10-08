@@ -68,8 +68,7 @@ Ntdll.dll : 시스템 콜로 NTOSKERNEL내의 함수를 호출함
 2권의 11장 - 윈도우의 시작과 종료 절차를 설명<br>
 2권의 9장 - 레지스트리, 서비스 프로세스, WMI 관리 메커니즘<br>
 
-환경 서브시스템을 제외한 서브시스템들은 하나 이상의 라이브러리를 거쳐 시스템 콜을 한다.<br>
-SubSystem은 PE image 안의 SubSystem을 확인 하거나, Linker/Subsystem 속성 페이지에서 수정 할 수 있다.<br>
+`Subsystem` 유형 확인 - PE IMAGER_OPTIONAL_HEADER->Subsystem, Visual Studio /SUBSYSTEM 링커 옵션 혹은 프로젝트의 Linker/System 속성 페이지 안의 Subsystem 항목<br>
 
 윈도우에서는 GUI, CUI가 있지만 단 하나의 서브시스템으로 통합된다.<br>
 GUI 또한 AllocConsole로 콘솔을 가질 수 있으며, Console또한 다이얼로그나 WndProc 생성으로 윈도우 창을 가질 수 있다.<br>
