@@ -15,6 +15,7 @@ SMP - Symmetric MultiProcessing (대칭형 멀티프로세싱)<br>
 SMT - Simultaneous Multi-Threaded (병렬 멀티스레드)<br>
 Topology - 형태<br>
 heterogeneous - 여러 다른 종류들로 이뤄진<br>
+subsystem - 하위 시스템<br>
 유휴 : [명사] 쓰지 아니하고 놀림.<br>
 取捨選擇 [취사선택] : 취할 것은 취(取)하고, 버릴 것은 버려서 골라잡음<br>
 VTL - VirtualTrustLevel
