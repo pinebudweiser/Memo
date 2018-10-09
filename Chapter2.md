@@ -94,5 +94,13 @@ NTOSKRNL -> SMSS(서브시스템에 의존적이지 않음) -> CSRSS
 
 ## 익스큐티브 (140p)
 
+NTOSKRNL의 상위계층 커널은 하위계층이라는데 뭔 개소린지 모르겠음.<BR>
+  
+- 함수 호출 유형
+- EXPORT 되어있고 유저 모드로부터 호출 가능한 함수들 : NTDLL에 SYSTEMCALL로 EXPORT 되어 있는 함수들
+- DeviceIoControl 함수를 통해 호출 되는 디바이스 관련 함수들
+- WDK에 문서화 되어 있고 커널모드에서만 호출 가능한 함수들 : NTDLL에는 EXPORT 되어 있지않고, NTOSKRNL에는 EXPORT되어있는 함수들 = IoCreateFile
+
+
 ## 커널 (144p)
 
