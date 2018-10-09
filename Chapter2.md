@@ -81,6 +81,17 @@ GUI 또한 AllocConsole로 콘솔을 가질 수 있으며, Console또한 다이�
 2. 시스템 호출이 필요한 경우 -> NTDLL에서 시스템 호출
 3. 환경 서브시스템 프로세스에서 수행돼야 하는 어떤일을 요구하는 경우, DLL을 통하여 ALPC로 환경 서브시스템과 통신 - 응당이 올 때 까지 기다림 
 
+NTDLL.dll - 일반적인 시스템 호출<br>
+- LDRxxxx : 이미지 로더 관련 함수
+- CSRxxxx : 서브시스템(CSRSS) 관련 함수
+- RTLxxxx : 런타임 라이브러리 루틴
+- DbgUixx : 유저모드 디버깅을 위한 지원
+- ETWxxxx : 이벤트 트레이싱
+- 문자열 표준 라이브러리 함수들(memcpy, strcpy등)
+IUMDLL.dll - 자격증명이 활성화 된 경우에 시스템 호출<br>
+
+NTOSKERNL -> SMSS(서브시스템에 의존적이지 않음) -> CSRSS
+
 ## 익스큐티브 (140p)
 
 ## 커널 (144p)
