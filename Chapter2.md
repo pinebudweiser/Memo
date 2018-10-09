@@ -90,7 +90,7 @@ NTDLL.dll - 일반적인 시스템 호출<br>
 - 문자열 표준 라이브러리 함수들(memcpy, strcpy등)
 IUMDLL.dll - 자격증명이 활성화 된 경우에 시스템 호출<br>
 
-NTOSKERNL -> SMSS(서브시스템에 의존적이지 않음) -> CSRSS
+NTOSKRNL -> SMSS(서브시스템에 의존적이지 않음) -> CSRSS
 
 ## 익스큐티브 (140p)
 
