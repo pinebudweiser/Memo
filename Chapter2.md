@@ -121,4 +121,9 @@ NTOSKRNL에서 나누는 상위와 하위계층은 언어에서 말하는 Low, H
 
 => 최종적으로 익스큐티브는 커널 객체의 인스턴스를 생성하고 커널 관련 함수를 호출하여 익스큐티브 컴포넌트를 구현한다!!
 
+- KPCR(KernelProcessControlRegion) : 프로세스 한정적 정보를 저장한다. IDT(IntrruptDispatcherTable), TSS(TaskStatementSegment), GDT(GlobalDescriptorTable)을 담고 있다.
+
+x86 -> fs -> KPCR<br>
+x64 -> gs -> KPCR<br>
+
 
