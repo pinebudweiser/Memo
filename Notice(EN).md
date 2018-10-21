@@ -2,7 +2,7 @@
 Welcome to video game challenge!<br>
 TeamSCP has prepared casual VR games for you.<br>
 Challenge for VR Game, get score and go for top.<br>
-`* All files are available after the experience`
+`* All files are giving after the experience`
 
 ## \# VR Challenge 1 - Testing your memory power
   A top of VR games `"BeatSaber"`<br>
@@ -21,4 +21,5 @@ Challenge for VR Game, get score and go for top.<br>
 
 ## \# Main Challenge - Annoying Game Speed Run
    `"Getting Over It"` also known as a pot game!!<br>
-   We got angry while playing the game and asked you to hacking this game. (×﹏×)<br>
+   We got angry while playing the game and asked you to hack this game. (×﹏×)<br>
+   Solve the game the fastest and get a high score.
