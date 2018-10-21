@@ -11,7 +11,7 @@ Challenge for VR Game, get score and go for top.<br>
   A very long flag will test your memory °˖✧◝(⁰▿⁰)◜✧˖°
 
 ## \# VR Challenge 2 - Spooky Calling
-   The telephon on the plank is ringing<br>
+   The telephon on the plank is ringing.<br>
    But what about a plank on a skyscraper? (๑°ㅁ°๑)‼<br>
    Answer the phone and get the flag!
 
