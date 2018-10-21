@@ -5,7 +5,7 @@ Challenge for VR Game, get score and go for top.<br>
 `* All files are giving after the experience`
 
 ## \# VR Challenge 1 - Testing your memory power
-  A top of VR games `"BeatSaber"`<br>
+  A top of VR games `"Beat Saber"`<br>
   In the mood for Jedi, try to cut out the letters that come out in sequence.<br>
   However, the combination of these letters is a flag.<br>
   A very long flag will test your memory °˖✧◝(⁰▿⁰)◜✧˖°
