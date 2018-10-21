@@ -1,0 +1,24 @@
+# Notice
+Welcome to video game challenge!<br>
+TeamSCP has prepared casual VR games for you.<br>
+Challenge for VR Game, get score and go for top.<br>
+`* All files are available after the experience`
+
+## \# VR Challenge 1 - Testing your memory power
+  A top of VR games `"BeatSaber"`<br>
+  In the mood for Jedi, try to cut out the letters that come out in sequence.<br>
+  However, the combination of these letters is a flag.<br>
+  A very long flag will test your memory °˖✧◝(⁰▿⁰)◜✧˖°
+
+## \# VR Challenge 2 - Spooky Calling
+   The telephone on the wooden board is ringing. <br>
+   But what about a wooden board on a skyscraper? (๑°ㅁ°๑)‼<br>
+   Answer the phone and get the flag!
+
+## \# VR Challenge 3 - INFINITE Boss
+   Manipulate the drone with the controller to shoot down the enemies and boss!
+   If you shoot down the boss, we'll get the flag. ^(#｀∀´)_Ψ
+
+## \# Main Challenge - Annoying Game Speed Run
+   `"Getting Over It"` also known as a pot game!!<br>
+   We got angry while playing the game and asked you to hacking this game. (×﹏×)<br>
