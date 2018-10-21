@@ -16,7 +16,7 @@ Challenge for VR Game, get score and go for top.<br>
    Answer the phone and get the flag!
 
 ## \# VR Challenge 3 - INFINITE Boss
-   Manipulate the drone with the controller to shoot down the enemies and boss!
+   Manipulate the drone with the controller to shoot down the enemies and boss!<br>
    If you shoot down the boss, we'll get the flag. ^(#｀∀´)_Ψ
 
 ## \# Main Challenge - Annoying Game Speed Run
