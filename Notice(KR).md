@@ -5,7 +5,7 @@ VR 게임에 도전하고 점수를 획득하여 1등을 노려보세요.<br>
 \* 모든 VR Challenge는 체험 후에 바이너리가 제공됩니다.
 
 ## \# VR Challenge 1 - Testing your memory power
-   VR 게임의 대작 `Beat Saber` 제다이가 된 기분으로 차례대로 나오는 문자들을 썰어보세요.<br>
+   VR 게임의 대작 `Beat Saber` 제다이가 된 기분으로 음악에 맞춰 차례대로 나오는 문자들을 썰어보세요.<br>
    단! 이 문자들의 조합은 플래그입니다. 아주 긴 플래그가 당신의 기억력을 테스트할 것입니다 °˖✧◝(⁰▿⁰)◜✧˖°
 
 ## \# VR Challenge 2 - Spooky Calling
