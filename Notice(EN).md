@@ -8,7 +8,7 @@ Challenge for VR Game, get score and go for top.<br>
   A top of VR games `"Beat Saber"`<br>
   In the mood for Jedi, try to cut out the letters that come out in sequence.<br>
   However, the combination of these letters is a flag.<br>
-  A very long flag will test your memory °˖✧◝(⁰▿⁰)◜✧˖°
+  A very long flag will test your memory power °˖✧◝(⁰▿⁰)◜✧˖°
 
 ## \# VR Challenge 2 - Spooky Calling
    The telephon on the plank is ringing.<br>
