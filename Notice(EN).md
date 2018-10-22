@@ -12,7 +12,7 @@ Challenge for VR Game, get score and go for top.<br>
 
 ## \# VR Challenge 2 - Spooky Calling
    The telephon on the plank is ringing.<br>
-   But what about a plank on a skyscraper? (๑°ㅁ°๑)‼<br>
+   But what about the plank on a skyscraper? (๑°ㅁ°๑)‼<br>
    Answer the phone and get the flag!
 
 ## \# VR Challenge 3 - INFINITE Boss
