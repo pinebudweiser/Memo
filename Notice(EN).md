@@ -18,8 +18,3 @@ Challenge for VR Game, get score and go for top.<br>
 ## \# VR Challenge 3 - INFINITE Boss
    Manipulate the drone with the controller to shoot down the enemies and boss!<br>
    If you shoot down the boss, we'll get the flag ^(#｀∀´)_Ψ
-
-## \# Main Challenge - Annoying Game Speed Run
-   `"Getting Over It"` also known as a pot game!!<br>
-   We got angry while playing the game and asked you to hack this game (×﹏×)<br>
-   Solve the game the fastest and get a high score.
