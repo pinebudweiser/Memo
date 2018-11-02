@@ -17,7 +17,8 @@ VR 게임에 도전하고 점수를 획득하여 1등을 노려보세요.<br>
    컨트롤러로 드론을 조종해 적들을 격추하고 보스를 잡아주세요!!<br>
    보스를 잡는다면 플래그를 얻을 수 있을 것입니다 ^(#｀∀´)_Ψ
 
-## \# Main Challenge - Annoying Game Speed Run
+`(Closed)`
+~~## \# Main Challenge - Annoying Game Speed Run
    항아리 게임으로 알려진 `'Getting Over It'`<br>
    게임을 하다 너무나 열 받은 나머지 SCP에서는 이 게임을 해킹해주길 의뢰했습니다 (×﹏×)<br>
    모든 방법을 동원하여 가장 빠르게 게임을 클리어해 주세요!<br>
