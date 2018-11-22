@@ -70,10 +70,10 @@ Ntdll.dll : 시스템 콜로 NTOSKERNEL내의 함수를 호출함<br>
 
 ## 핵심 시스템 컴포넌트 (122p)
 
-'# `Subsystem` 유형 확인 방법<br>
-PE 헤더 내, IMAGER_OPTIONAL_HEADER → Subsystem<br>
-Visual Studio /SUBSYSTEM 링커 옵션<br>
-프로젝트의 Linker/System 속성 페이지 안의 Subsystem 항목<br>
+# `Subsystem` 유형 확인 방법<br>
+  PE 헤더 내, IMAGER_OPTIONAL_HEADER → Subsystem<br>
+  Visual Studio /SUBSYSTEM 링커 옵션<br>
+  프로젝트의 Linker/System 속성 페이지 안의 Subsystem 항목<br>
 
 윈도우에서는 GUI, CUI가 있지만 단 하나의 서브시스템으로 통합된다.<br>
 GUI 또한 AllocConsole로 콘솔을 가질 수 있으며, Console또한 다이얼로그나 WndProc 생성으로 윈도우 창을 가질 수 있다.<br>
