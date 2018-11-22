@@ -4,7 +4,7 @@
 ## 용어
 
 Architecture<br>
-Components<br>
+Components - 구성요소<br>
 Context<br>
 FrameWork<br>
 Monolithic<br>
